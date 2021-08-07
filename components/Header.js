@@ -26,6 +26,7 @@ function Header({placeholder}) {
     setSearchInput("")
   };
   const handleSearch = () =>{
+    console.log(endDate)
     router.push({
       pathname : "/search",
       query : {
